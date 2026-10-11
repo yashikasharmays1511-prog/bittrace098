@@ -1,0 +1,34 @@
+﻿# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large original datasets
+data/raw/
+EllipticPlusPlus/
+
+# Generated data and results
+data/processed/
+results/
+bittrace_evidence/
+bittrace_large_scale_test/
+bittrace_transaction_stress_test/
+
+# Generated evaluation files
+bittrace_transaction_class_summary.csv
+bittrace_transaction_final_evaluation.csv
+bittrace_transaction_temporal_analysis.csv
+bittrace_transaction_threshold_analysis.csv
+bittrace_transaction_top100.csv
+bittrace_transaction_topk_analysis.csv
+
+# Generated model outputs
+src/ellipticpp_graph_behavioral_anomaly_results.csv
+src/ellipticpp_graph_behavioral_features.txt
+src/ellipticpp_graph_features.csv
+src/ellipticpp_isolation_forest_results.csv
+src/ellipticpp_unsupervised_if_lof_ensemble_results.csv
+src/ellipticpp_unsupervised_selected_features.txt
+src/ellipticpp_unsupervised_temporal_analysis.csv
